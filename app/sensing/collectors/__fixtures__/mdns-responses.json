@@ -1,0 +1,934 @@
+[
+ {
+  "from": "192.168.1.116",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_airplay._tcp.local"
+   },
+   {
+    "name": "_airplay._tcp.local",
+    "type": "PTR",
+    "data": "Example’s MacBook Pro._airplay._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_raop._tcp.local"
+   },
+   {
+    "name": "_raop._tcp.local",
+    "type": "PTR",
+    "data": "000000000002@Example’s MacBook Pro._raop._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_asquic._udp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_companion-link._tcp.local"
+   },
+   {
+    "name": "_companion-link._tcp.local",
+    "type": "PTR",
+    "data": "Example’s MacBook Pro._companion-link._tcp.local"
+   },
+   {
+    "name": "Example’s MacBook Pro._device-info._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=MacBookPro18,4",
+     "osxvers=25"
+    ]
+   },
+   {
+    "name": "Example’s MacBook Pro._airplay._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=MacBookPro18,4"
+    ]
+   },
+   {
+    "name": "000000000002@Example’s MacBook Pro._raop._tcp.local",
+    "type": "TXT",
+    "data": [
+     "md=0,1,2",
+     "am=MacBookPro18,4"
+    ]
+   },
+   {
+    "name": "Example’s MacBook Pro._airplay._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Example-MacBook-Pro.local"
+    }
+   },
+   {
+    "name": "000000000002@Example’s MacBook Pro._raop._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Example-MacBook-Pro.local"
+    }
+   },
+   {
+    "name": "Example’s MacBook Pro._companion-link._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "Example-MacBook-Pro.local",
+    "type": "A",
+    "data": "192.168.1.116"
+   },
+   {
+    "name": "Example’s MacBook Pro._companion-link._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 62050,
+     "target": "Example-MacBook-Pro.local"
+    }
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.156",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_leap._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_lap._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_hap._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_lutron._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.74",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_sonos._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.76",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_sonos._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.184",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_sonos._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.73",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_spotify-connect._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_airplay._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_raop._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_sonos._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.42",
+  "records": [
+   {
+    "name": "_spotify-connect._tcp.local",
+    "type": "PTR",
+    "data": "SpotifyConnect._spotify-connect._tcp.local"
+   },
+   {
+    "name": "SpotifyConnect._spotify-connect._tcp.local",
+    "type": "TXT",
+    "data": [
+     "CPath=/spotifyConnect"
+    ]
+   },
+   {
+    "name": "SpotifyConnect._spotify-connect._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 4070,
+     "target": "none.local"
+    }
+   },
+   {
+    "name": "none.local",
+    "type": "A",
+    "data": "192.168.1.42"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.156",
+  "records": [
+   {
+    "name": "_hap._tcp.local",
+    "type": "PTR",
+    "data": "Smart Bridge 2._hap._tcp.local"
+   },
+   {
+    "name": "Smart Bridge 2._hap._tcp.local",
+    "type": "TXT",
+    "data": [
+     "ff=1",
+     "md=Smart Bridge 2",
+     "ci=2",
+     "pv=1.1"
+    ]
+   },
+   {
+    "name": "Smart Bridge 2._hap._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 4548,
+     "target": "Lutron-00000000.local"
+    }
+   },
+   {
+    "name": "Lutron-00000000.local",
+    "type": "A",
+    "data": "192.168.1.156"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.73",
+  "records": [
+   {
+    "name": "_spotify-connect._tcp.local",
+    "type": "PTR",
+    "data": "sonosRINCON_804AF200003001400._spotify-connect._tcp.local"
+   },
+   {
+    "name": "_airplay._tcp.local",
+    "type": "PTR",
+    "data": "Living Room._airplay._tcp.local"
+   },
+   {
+    "name": "_raop._tcp.local",
+    "type": "PTR",
+    "data": "804AF2000030@Living Room._raop._tcp.local"
+   },
+   {
+    "name": "_sonos._tcp.local",
+    "type": "PTR",
+    "data": "RINCON_804AF200003001400@Living Room._sonos._tcp.local"
+   },
+   {
+    "name": "sonosRINCON_804AF200003001400._spotify-connect._tcp.local",
+    "type": "TXT",
+    "data": [
+     "CPath=/spotifyzc"
+    ]
+   },
+   {
+    "name": "Living Room._airplay._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=Arc",
+     "manufacturer=Sonos"
+    ]
+   },
+   {
+    "name": "804AF2000030@Living Room._raop._tcp.local",
+    "type": "TXT",
+    "data": [
+     "md=0,1,2",
+     "am=Arc"
+    ]
+   },
+   {
+    "name": "sonosRINCON_804AF200003001400._spotify-connect._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 1400,
+     "target": "Sonos-804AF2000030.local"
+    }
+   },
+   {
+    "name": "Living Room._airplay._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Sonos-804AF2000030.local"
+    }
+   },
+   {
+    "name": "804AF2000030@Living Room._raop._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Sonos-804AF2000030.local"
+    }
+   },
+   {
+    "name": "RINCON_804AF200003001400@Living Room._sonos._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "Sonos-804AF2000030.local",
+    "type": "A",
+    "data": "192.168.1.73"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.109",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_airplay._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_raop._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_spotify-connect._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_sonos._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.184",
+  "records": [
+   {
+    "name": "_sonos._tcp.local",
+    "type": "PTR",
+    "data": "RINCON_804AF200009001400@Living Room._sonos._tcp.local"
+   },
+   {
+    "name": "RINCON_804AF200009001400@Living Room._sonos._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "RINCON_804AF200009001400@Living Room._sonos._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 1443,
+     "target": "Sonos-804AF2000090.local"
+    }
+   },
+   {
+    "name": "Sonos-804AF2000090.local",
+    "type": "A",
+    "data": "192.168.1.184"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.76",
+  "records": [
+   {
+    "name": "_sonos._tcp.local",
+    "type": "PTR",
+    "data": "RINCON_804AF200005001400@Living Room._sonos._tcp.local"
+   },
+   {
+    "name": "RINCON_804AF200005001400@Living Room._sonos._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "RINCON_804AF200005001400@Living Room._sonos._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 1443,
+     "target": "Sonos-804AF2000050.local"
+    }
+   },
+   {
+    "name": "Sonos-804AF2000050.local",
+    "type": "A",
+    "data": "192.168.1.76"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.74",
+  "records": [
+   {
+    "name": "_sonos._tcp.local",
+    "type": "PTR",
+    "data": "RINCON_C4387500004001400@Sub._sonos._tcp.local"
+   },
+   {
+    "name": "RINCON_C4387500004001400@Sub._sonos._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "RINCON_C4387500004001400@Sub._sonos._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 1443,
+     "target": "Sonos-C43875000040.local"
+    }
+   },
+   {
+    "name": "Sonos-C43875000040.local",
+    "type": "A",
+    "data": "192.168.1.74"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.232",
+  "records": [
+   {
+    "name": "_googlecast._tcp.local",
+    "type": "PTR",
+    "data": "OLED83G4WUA.BUSYLJR-00000000000000000000000000000000._googlecast._tcp.local"
+   },
+   {
+    "name": "OLED83G4WUA.BUSYLJR-00000000000000000000000000000000._googlecast._tcp.local",
+    "type": "TXT",
+    "data": [
+     "fn=[LG] webOS TV OLED83G4WUA",
+     "md=OLED83G4WUA.BUSYLJR"
+    ]
+   },
+   {
+    "name": "OLED83G4WUA.BUSYLJR-00000000000000000000000000000000._googlecast._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 8009,
+     "target": "00000000-0000-4000-8000-000000000000.local"
+    }
+   },
+   {
+    "name": "00000000-0000-4000-8000-000000000000.local",
+    "type": "A",
+    "data": "192.168.1.232"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.232",
+  "records": [
+   {
+    "name": "_airplay._tcp.local",
+    "type": "PTR",
+    "data": "[LG] webOS TV OLED83G4WUA._airplay._tcp.local"
+   },
+   {
+    "name": "[LG] webOS TV OLED83G4WUA._airplay._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=OLED83G4WUA.BUSYLJR",
+     "manufacturer=LG"
+    ]
+   },
+   {
+    "name": "[LG] webOS TV OLED83G4WUA._airplay._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "LGwebOSTV.local"
+    }
+   },
+   {
+    "name": "LGwebOSTV.local",
+    "type": "A",
+    "data": "192.168.1.232"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.210",
+  "records": [
+   {
+    "name": "_http._tcp.local",
+    "type": "PTR",
+    "data": "com.ws1.uem.localserver._http._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_http._tcp.local"
+   },
+   {
+    "name": "com.ws1.uem.localserver._http._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7443,
+     "target": "jdoe-mac.local"
+    }
+   },
+   {
+    "name": "com.ws1.uem.localserver._http._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "jdoe-mac.local",
+    "type": "A",
+    "data": "192.168.1.210"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.232",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_display._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_ghp._tcp.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.109",
+  "records": [
+   {
+    "name": "_airplay._tcp.local",
+    "type": "PTR",
+    "data": "Patio._airplay._tcp.local"
+   },
+   {
+    "name": "_raop._tcp.local",
+    "type": "PTR",
+    "data": "804AF2000060@Patio._raop._tcp.local"
+   },
+   {
+    "name": "_spotify-connect._tcp.local",
+    "type": "PTR",
+    "data": "sonosRINCON_804AF200006001400._spotify-connect._tcp.local"
+   },
+   {
+    "name": "_sonos._tcp.local",
+    "type": "PTR",
+    "data": "RINCON_804AF200006001400@Patio._sonos._tcp.local"
+   },
+   {
+    "name": "Patio._airplay._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=Amp",
+     "manufacturer=Sonos"
+    ]
+   },
+   {
+    "name": "804AF2000060@Patio._raop._tcp.local",
+    "type": "TXT",
+    "data": [
+     "md=0,1,2",
+     "am=Amp"
+    ]
+   },
+   {
+    "name": "sonosRINCON_804AF200006001400._spotify-connect._tcp.local",
+    "type": "TXT",
+    "data": [
+     "CPath=/spotifyzc"
+    ]
+   },
+   {
+    "name": "Patio._airplay._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Sonos-804AF2000060.local"
+    }
+   },
+   {
+    "name": "804AF2000060@Patio._raop._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Sonos-804AF2000060.local"
+    }
+   },
+   {
+    "name": "sonosRINCON_804AF200006001400._spotify-connect._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 1400,
+     "target": "Sonos-804AF2000060.local"
+    }
+   },
+   {
+    "name": "RINCON_804AF200006001400@Patio._sonos._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "Sonos-804AF2000060.local",
+    "type": "A",
+    "data": "192.168.1.109"
+   },
+   {
+    "name": "RINCON_804AF200006001400@Patio._sonos._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 1443,
+     "target": "Sonos-804AF2000060.local"
+    }
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.164",
+  "records": [
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_ipps._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_ipp._tcp.local"
+   },
+   {
+    "name": "_ipp._tcp.local",
+    "type": "PTR",
+    "data": "HP OfficeJet Pro 9010 series [000000]._ipp._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_scanner._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_uscans._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_uscan._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_pdl-datastream._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_http-alt._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_http._tcp.local"
+   },
+   {
+    "name": "_http._tcp.local",
+    "type": "PTR",
+    "data": "HP OfficeJet Pro 9010 series [000000]._http._tcp.local"
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_printer._tcp.local"
+   },
+   {
+    "name": "_printer._tcp.local",
+    "type": "PTR",
+    "data": "HP OfficeJet Pro 9010 series [000000]._printer._tcp.local"
+   },
+   {
+    "name": "HP OfficeJet Pro 9010 series [000000]._ipp._tcp.local",
+    "type": "TXT",
+    "data": [
+     "product=(HP OfficeJet Pro 9010 series)",
+     "ty=HP OfficeJet Pro 9010 series",
+     "usb_MFG=HP"
+    ]
+   },
+   {
+    "name": "HP OfficeJet Pro 9010 series [000000]._http._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "HP OfficeJet Pro 9010 series [000000]._printer._tcp.local",
+    "type": "TXT",
+    "data": [
+     "ty=HP OfficeJet Pro 9010 series",
+     "product=(HP OfficeJet Pro 9010 series)"
+    ]
+   },
+   {
+    "name": "HP000000000000.local",
+    "type": "A",
+    "data": "192.168.1.164"
+   },
+   {
+    "name": "HP OfficeJet Pro 9010 series [000000]._ipp._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 631,
+     "target": "HP000000000000.local"
+    }
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.208",
+  "records": [
+   {
+    "name": "_airplay._tcp.local",
+    "type": "PTR",
+    "data": "Guest’s MacBook Pro._airplay._tcp.local"
+   },
+   {
+    "name": "_raop._tcp.local",
+    "type": "PTR",
+    "data": "000000000001@Guest’s MacBook Pro._raop._tcp.local"
+   },
+   {
+    "name": "_companion-link._tcp.local",
+    "type": "PTR",
+    "data": "Guest’s MacBook Pro._companion-link._tcp.local"
+   },
+   {
+    "name": "Guest’s MacBook Pro._device-info._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=MacBookPro17,1",
+     "osxvers=26"
+    ]
+   },
+   {
+    "name": "Guest’s MacBook Pro._airplay._tcp.local",
+    "type": "TXT",
+    "data": [
+     "model=MacBookPro17,1"
+    ]
+   },
+   {
+    "name": "000000000001@Guest’s MacBook Pro._raop._tcp.local",
+    "type": "TXT",
+    "data": [
+     "md=0,1,2",
+     "am=MacBookPro17,1"
+    ]
+   },
+   {
+    "name": "Guest’s MacBook Pro._airplay._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Guests-MacBook-Pro.local"
+    }
+   },
+   {
+    "name": "000000000001@Guest’s MacBook Pro._raop._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 7000,
+     "target": "Guests-MacBook-Pro.local"
+    }
+   },
+   {
+    "name": "Guest’s MacBook Pro._companion-link._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "Guest’s MacBook Pro._companion-link._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 53790,
+     "target": "Guests-MacBook-Pro.local"
+    }
+   },
+   {
+    "name": "Guests-MacBook-Pro.local",
+    "type": "A",
+    "data": "192.168.1.208"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.115",
+  "records": [
+   {
+    "name": "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.E.F.ip6.arpa",
+    "type": "PTR",
+    "data": "Example-iPhone.local"
+   },
+   {
+    "name": "115.1.168.192.in-addr.arpa",
+    "type": "PTR",
+    "data": "Example-iPhone.local"
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.115",
+  "records": [
+   {
+    "name": "00000000-0000-4000-8000-000000000003._asquic._udp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_asquic._udp.local"
+   },
+   {
+    "name": "_asquic._udp.local",
+    "type": "PTR",
+    "data": "00000000-0000-4000-8000-000000000003._asquic._udp.local"
+   },
+   {
+    "name": "00000000-0000-4000-8000-000000000003._asquic._udp.local",
+    "type": "SRV",
+    "data": {
+     "port": 57033,
+     "target": "Example-iPhone.local"
+    }
+   },
+   {
+    "name": "00000000-0000-4000-8000-000000000004._remotepairing._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_remotepairing._tcp.local"
+   },
+   {
+    "name": "_remotepairing._tcp.local",
+    "type": "PTR",
+    "data": "00000000-0000-4000-8000-000000000004._remotepairing._tcp.local"
+   },
+   {
+    "name": "00000000-0000-4000-8000-000000000004._remotepairing._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 49152,
+     "target": "Example-iPhone.local"
+    }
+   },
+   {
+    "name": "3a:00:00:00:00:07@fe80::1-supportsRP-24._apple-mobdev2._tcp.local",
+    "type": "TXT",
+    "data": []
+   },
+   {
+    "name": "_services._dns-sd._udp.local",
+    "type": "PTR",
+    "data": "_apple-mobdev2._tcp.local"
+   },
+   {
+    "name": "92860817._sub._apple-mobdev2._tcp.local",
+    "type": "PTR",
+    "data": "3a:00:00:00:00:07@fe80::1-supportsRP-24._apple-mobdev2._tcp.local"
+   },
+   {
+    "name": "_apple-mobdev2._tcp.local",
+    "type": "PTR",
+    "data": "3a:00:00:00:00:07@fe80::1-supportsRP-24._apple-mobdev2._tcp.local"
+   },
+   {
+    "name": "Example-iPhone.local",
+    "type": "A",
+    "data": "192.168.1.115"
+   },
+   {
+    "name": "3a:00:00:00:00:07@fe80::1-supportsRP-24._apple-mobdev2._tcp.local",
+    "type": "SRV",
+    "data": {
+     "port": 32498,
+     "target": "Example-iPhone.local"
+    }
+   }
+  ]
+ },
+ {
+  "from": "192.168.1.115",
+  "records": [
+   {
+    "name": "_asquic._udp.local",
+    "type": "PTR",
+    "data": "00000000-0000-4000-8000-000000000003._asquic._udp.local"
+   },
+   {
+    "name": "_remotepairing._tcp.local",
+    "type": "PTR",
+    "data": "00000000-0000-4000-8000-000000000004._remotepairing._tcp.local"
+   },
+   {
+    "name": "92860817._sub._apple-mobdev2._tcp.local",
+    "type": "PTR",
+    "data": "3a:00:00:00:00:07@fe80::1-supportsRP-24._apple-mobdev2._tcp.local"
+   },
+   {
+    "name": "_apple-mobdev2._tcp.local",
+    "type": "PTR",
+    "data": "3a:00:00:00:00:07@fe80::1-supportsRP-24._apple-mobdev2._tcp.local"
+   }
+  ]
+ }
+]

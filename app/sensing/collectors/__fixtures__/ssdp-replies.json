@@ -1,0 +1,134 @@
+[
+ {
+  "from": "192.168.1.1",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age=1800\r\nDATE: Mon, 05 Oct 2026 22:12:33 GMT\r\nEXT:\r\nLOCATION: http://192.168.1.1:49152/gatedesc.xml\r\nOPT: \"http://schemas.upnp.org/upnp/1/0/\"; ns=01\r\n01-NLS: 00000000-0000-4000-8000-000000000001\r\nSERVER: Linux/3.10.107-UBNT, UPnP/1.0, Portable SDK for UPnP devices/1.8.0~svn20100401\r\nX-User-Agent: redsonic\r\nST: upnp:rootdevice\r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.1",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age=120\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\nUSN: uuid:00000000-0000-4000-8000-000000000001::urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\nEXT:\r\nSERVER: Debian/wheezy UPnP/1.1 MiniUPnPd/2.0\r\nLOCATION: http://192.168.1.1:37792/rootDesc.xml\r\nOPT: \"http://schemas.upnp.org/upnp/1/0/\"; ns=01\r\n01-NLS: 1786515984\r\nBOOTID.UPNP.ORG: 1786515984\r\nCONFIGID.UPNP.ORG: 1337\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.1",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age=120\r\nST: upnp:rootdevice\r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nEXT:\r\nSERVER: Debian/wheezy UPnP/1.1 MiniUPnPd/2.0\r\nLOCATION: http://192.168.1.1:37792/rootDesc.xml\r\nOPT: \"http://schemas.upnp.org/upnp/1/0/\"; ns=01\r\n01-NLS: 1786515984\r\nBOOTID.UPNP.ORG: 1786515984\r\nCONFIGID.UPNP.ORG: 1337\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.109",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.109:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/84.1-63110 (ZPS16)\r\nST: urn:schemas-upnp-org:device:ZonePlayer:1\r\nUSN: uuid:RINCON_804AF200006001400::urn:schemas-upnp-org:device:ZonePlayer:1\r\nX-RINCON-HOUSEHOLD: Sonos_3owCQ2PCtUCI50qfwmfuVyBp3h\r\nX-RINCON-BOOTSEQ: 50\r\nBOOTID.UPNP.ORG: 50\r\nX-RINCON-WIFIMODE: 0\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_3owCQ2PCtUCI50qfwmfuVyBp3h.wpZZ2cj3MQyvGDupzXy2\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.109:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.109:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.109",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.109:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/84.1-63110 (ZPS16)\r\nST: upnp:rootdevice\r\nUSN: uuid:RINCON_804AF200006001400::upnp:rootdevice\r\nX-RINCON-HOUSEHOLD: Sonos_3owCQ2PCtUCI50qfwmfuVyBp3h\r\nX-RINCON-BOOTSEQ: 50\r\nBOOTID.UPNP.ORG: 50\r\nX-RINCON-WIFIMODE: 0\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_3owCQ2PCtUCI50qfwmfuVyBp3h.wpZZ2cj3MQyvGDupzXy2\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.109:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.109:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.109",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.109:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/84.1-63110 (ZPS16)\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nUSN: uuid:RINCON_804AF200006001400_MR::urn:schemas-upnp-org:device:MediaRenderer:1\r\nX-RINCON-HOUSEHOLD: Sonos_3owCQ2PCtUCI50qfwmfuVyBp3h\r\nX-RINCON-BOOTSEQ: 50\r\nBOOTID.UPNP.ORG: 50\r\nX-RINCON-WIFIMODE: 0\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_3owCQ2PCtUCI50qfwmfuVyBp3h.wpZZ2cj3MQyvGDupzXy2\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.109:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.109:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.76",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.76:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS41)\r\nST: urn:schemas-upnp-org:device:ZonePlayer:1\r\nUSN: uuid:RINCON_804AF200005001400::urn:schemas-upnp-org:device:ZonePlayer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 83\r\nBOOTID.UPNP.ORG: 83\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.76:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.76:1843/xml/device_description.xml\r\nX-SONOS-INFOHASH: p9ybinZj6oCB1RKPbtyg_MJ83z_UziXjE73kNYWowmA\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.76",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.76:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS41)\r\nST: upnp:rootdevice\r\nUSN: uuid:RINCON_804AF200005001400::upnp:rootdevice\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 83\r\nBOOTID.UPNP.ORG: 83\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.76:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.76:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.76",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.76:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS41)\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nUSN: uuid:RINCON_804AF200005001400_MR::urn:schemas-upnp-org:device:MediaRenderer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 83\r\nBOOTID.UPNP.ORG: 83\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.76:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.76:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.1",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age=1800\r\nDATE: Mon, 05 Oct 2026 22:12:33 GMT\r\nEXT:\r\nLOCATION: http://192.168.1.1:49152/gatedesc.xml\r\nOPT: \"http://schemas.upnp.org/upnp/1/0/\"; ns=01\r\n01-NLS: 00000000-0000-4000-8000-000000000001\r\nSERVER: Linux/3.10.107-UBNT, UPnP/1.0, Portable SDK for UPnP devices/1.8.0~svn20100401\r\nX-User-Agent: redsonic\r\nST: urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\nUSN: uuid:00000000-0000-4000-8000-000000000001::urn:schemas-upnp-org:device:InternetGatewayDevice:1\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.73",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.73:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS19)\r\nST: urn:schemas-upnp-org:device:ZonePlayer:1\r\nUSN: uuid:RINCON_804AF200003001400::urn:schemas-upnp-org:device:ZonePlayer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 116\r\nBOOTID.UPNP.ORG: 116\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.73:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.73:1843/xml/device_description.xml\r\nX-SONOS-INFOHASH: 9V37pSpeZjZaGxFu9qUZJLs3lkLc4sPRlTFLqMnmSUQ\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.73",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.73:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS19)\r\nST: upnp:rootdevice\r\nUSN: uuid:RINCON_804AF200003001400::upnp:rootdevice\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 116\r\nBOOTID.UPNP.ORG: 116\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.73:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.73:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.73",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.73:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS19)\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nUSN: uuid:RINCON_804AF200003001400_MR::urn:schemas-upnp-org:device:MediaRenderer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 116\r\nBOOTID.UPNP.ORG: 116\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.73:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.73:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.184",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.184:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS41)\r\nST: urn:schemas-upnp-org:device:ZonePlayer:1\r\nUSN: uuid:RINCON_804AF200009001400::urn:schemas-upnp-org:device:ZonePlayer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 74\r\nBOOTID.UPNP.ORG: 74\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.184:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.184:1843/xml/device_description.xml\r\nX-SONOS-INFOHASH: ujo-suvLgJgwr-buuXPJ3b0pY8EkWSjj_i4Q7XQokLk\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.184",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.184:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS41)\r\nST: upnp:rootdevice\r\nUSN: uuid:RINCON_804AF200009001400::upnp:rootdevice\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 74\r\nBOOTID.UPNP.ORG: 74\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.184:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.184:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.184",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.184:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS41)\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nUSN: uuid:RINCON_804AF200009001400_MR::urn:schemas-upnp-org:device:MediaRenderer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 74\r\nBOOTID.UPNP.ORG: 74\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.184:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.184:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.74",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.74:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS26)\r\nST: urn:schemas-upnp-org:device:ZonePlayer:1\r\nUSN: uuid:RINCON_C4387500004001400::urn:schemas-upnp-org:device:ZonePlayer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 87\r\nBOOTID.UPNP.ORG: 87\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.74:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.74:1843/xml/device_description.xml\r\nX-SONOS-INFOHASH: AqnPmDoPjaM_FYnoADJViex61aFMGGV0D38KUayA3zw\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.74",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.74:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS26)\r\nST: upnp:rootdevice\r\nUSN: uuid:RINCON_C4387500004001400::upnp:rootdevice\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 87\r\nBOOTID.UPNP.ORG: 87\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.74:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.74:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.74",
+  "text": "HTTP/1.1 200 OK\r\nCACHE-CONTROL: max-age = 1800\r\nEXT:\r\nLOCATION: http://192.168.1.74:1400/xml/device_description.xml\r\nSERVER: Linux UPnP/1.0 Sonos/97.1-80312 (ZPS26)\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nUSN: uuid:RINCON_C4387500004001400_MR::urn:schemas-upnp-org:device:MediaRenderer:1\r\nX-RINCON-HOUSEHOLD: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry\r\nX-RINCON-BOOTSEQ: 87\r\nBOOTID.UPNP.ORG: 87\r\nX-RINCON-PROXY: RINCON_804AF200003001400\r\nX-RINCON-VARIANT: 2\r\nHOUSEHOLD.SMARTSPEAKER.AUDIO: Sonos_Drpo8xRSpffE6XKeViiQyD49Ry.3lYXThd6vvvrUanSw2pI\r\nLOCATION.SMARTSPEAKER.AUDIO: lc_00000000000000000000000000000000\r\nSECURELOCATION.UPNP.ORG: https://192.168.1.74:1443/xml/device_description.xml\r\nX-SONOS-HHSECURELOCATION: https://192.168.1.74:1843/xml/device_description.xml\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1361/\r\nCache-Control: max-age=1800\r\nServer: WebOS/4.0.0 UPnP/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1361/\r\nCache-Control: max-age=1800\r\nServer: WebOS/4.0.0 UPnP/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::urn:lge:device:tv:1\r\nST: urn:lge:device:tv:1\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1785/\r\nCache-Control: max-age=1800\r\nServer: Linux/i686 UPnP/1,0 DLNADOC/1.50 LGE WebOS TV/Version 0.9\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nDLNADeviceName.lge.com: %5bLG%5d%20webOS%20TV%20OLED83G4WUA\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1785/\r\nCache-Control: max-age=1800\r\nServer: Linux/i686 UPnP/1,0 DLNADOC/1.50 LGE WebOS TV/Version 0.9\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::urn:schemas-upnp-org:device:MediaRenderer:1\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nDLNADeviceName.lge.com: %5bLG%5d%20webOS%20TV%20OLED83G4WUA\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1990/\r\nCache-Control: max-age=1800\r\nServer: WebOS/4.1.0 UPnP/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1320/\r\nCache-Control: max-age=1800\r\nServer: WebOS/1.5 UPnP/1.0 webOSTV/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1634/\r\nCache-Control: max-age=1800\r\nServer: Linux/6.12.44-352 UPnP/1.1 lglink/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nLGLINK-LOCATION: 192.168.1.232\r\nLGLINK-IO : 50052\r\nLGLINK-GRPC : 50051\r\nLGLINK-NAME : [LG] webOS TV OLED83G4WUA\r\nLGLINK-INFO : tv,26,2,1.0.0\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1361/\r\nCache-Control: max-age=1800\r\nServer: WebOS/4.0.0 UPnP/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1361/\r\nCache-Control: max-age=1800\r\nServer: WebOS/4.0.0 UPnP/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::urn:lge:device:tv:1\r\nST: urn:lge:device:tv:1\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1785/\r\nCache-Control: max-age=1800\r\nServer: Linux/i686 UPnP/1,0 DLNADOC/1.50 LGE WebOS TV/Version 0.9\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nDLNADeviceName.lge.com: %5bLG%5d%20webOS%20TV%20OLED83G4WUA\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1785/\r\nCache-Control: max-age=1800\r\nServer: Linux/i686 UPnP/1,0 DLNADOC/1.50 LGE WebOS TV/Version 0.9\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::urn:schemas-upnp-org:device:MediaRenderer:1\r\nST: urn:schemas-upnp-org:device:MediaRenderer:1\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nDLNADeviceName.lge.com: %5bLG%5d%20webOS%20TV%20OLED83G4WUA\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1990/\r\nCache-Control: max-age=1800\r\nServer: WebOS/4.1.0 UPnP/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1320/\r\nCache-Control: max-age=1800\r\nServer: WebOS/1.5 UPnP/1.0 webOSTV/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nWAKEUP: MAC=44:27:45:00:01:00;Timeout=60\r\n\r\n"
+ },
+ {
+  "from": "192.168.1.232",
+  "text": "HTTP/1.1 200 OK\r\nLocation: http://192.168.1.232:1634/\r\nCache-Control: max-age=1800\r\nServer: Linux/6.12.44-352 UPnP/1.1 lglink/1.0\r\nEXT: \r\nUSN: uuid:00000000-0000-4000-8000-000000000001::upnp:rootdevice\r\nST: upnp:rootdevice\r\nDate: Mon, 05 Oct 2026 22:12:33 GMT\r\nLGLINK-LOCATION: 192.168.1.232\r\nLGLINK-IO : 50052\r\nLGLINK-GRPC : 50051\r\nLGLINK-NAME : [LG] webOS TV OLED83G4WUA\r\nLGLINK-INFO : tv,26,2,1.0.0\r\n\r\n"
+ }
+]

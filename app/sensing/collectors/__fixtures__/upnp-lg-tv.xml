@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0" xmlns:dlna="urn:schemas-dlna-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:lge:device:tv:1</deviceType>
+    <friendlyName>[LG] webOS TV OLED83G4WUA</friendlyName>
+    <manufacturer>LG Electronics</manufacturer>
+    <manufacturerURL></manufacturerURL>
+    <modelDescription></modelDescription>
+    <modelName>OLED83G4WUA.BUSYLJR</modelName>
+    <modelURL></modelURL>
+    <serialNumber></serialNumber>
+    <UDN>uuid:00000000-0000-4000-8000-000000000020</UDN>
+    <wifiMac>44:27:45:00:01:00</wifiMac>
+    <wiredMac>00:A1:59:00:00:01</wiredMac>
+    <serviceList>
+      <service>
+        <serviceType>urn:lge:service:virtualSvc:1</serviceType>
+        <serviceId>urn:lge:serviceId:virtualSvc-0000-0001</serviceId>
+        <SCPDURL>/virtualService/x/scpd.xml</SCPDURL>
+        <controlURL>/virtualService/x/control.xml</controlURL>
+        <eventSubURL>/virtualService/x/event.xml</eventSubURL>
+      </service>
+    </serviceList>
+  </device>
+</root>
